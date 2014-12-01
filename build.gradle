@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'App'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.5'
+    compile 'io.reactivex:rxjava:1.0.0'
+    compile 'com.squareup.retrofit:retrofit:1.8.0'
+    compile 'com.squareup.retrofit:converter-jackson:1.8.0'
+    compile 'args4j:args4j:2.0.29'
+
+    testCompile 'junit:junit:4.11'
+}
