@@ -1,4 +1,4 @@
-RxJava-GitBlaming
+RxJava-GitBlaming [![Build Status](https://travis-ci.org/billybong/RxJava-GitBlaming.svg?branch=master)](https://travis-ci.org/billybong/RxJava-GitBlaming)
 =================
 
 Give a boot to all top committers of the project you wish you never included in your dependencies. Reactive style!
